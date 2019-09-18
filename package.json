@@ -162,6 +162,11 @@
           "default": true,
           "description": "Turns fragments on and off globally"
         },
+        "revealjs.pdfSeparateFragments": {
+          "type": "boolean",
+          "default": true,
+          "description": "Create separated slides for each fragment when printing to PDF"
+        },
         "revealjs.embedded": {
           "type": "boolean",
           "default": false,
