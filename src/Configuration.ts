@@ -36,6 +36,7 @@ export interface IDocumentOptions {
   rtl: boolean
   shuffle: boolean
   fragments: boolean
+  pdfSeparateFragments: boolean
   embedded: boolean
   help: boolean
   showNotes: boolean
@@ -118,6 +119,7 @@ export const defaultConfiguration: Configuration = {
   rtl: false,
   shuffle: false,
   fragments: true,
+  pdfSeparateFragments: true,
   embedded: false,
   help: true,
   showNotes: false,
